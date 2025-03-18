@@ -29,12 +29,3 @@ O objetivo do Sistema de Gestão Escolar é automatizar e centralizar os process
 
   #### Funcionalidade 4: 
   - Gerenciamento de Disciplinas: Nosso sistema deve permitir o cadastro de disciplinas, definindo o nome da disciplina, carga horária, e qual professor a leciona. Professores podem ser associados a uma ou mais disciplinas.
-
-  #### Funcionalidade 5: 
-  - Lançamento de Notas e Frequência: Professores devem poder lançar notas e controlar a frequência dos alunos para cada disciplina. Nosso sistema deve permitir a consulta e edição dessas informações.
-
-  #### Funcionalidade 6:
-  - Geração de Boletins: Nosso sistema deve gerar boletins dos alunos, exibindo as notas por disciplina, média final e frequência.
-
-  #### Funcionalidade 7: 
-  - Gerenciamento de Calendário Escolar: Deve haver um calendário escolar onde sejam registradas datas importantes como provas, reuniões, feriados e eventos escolares.

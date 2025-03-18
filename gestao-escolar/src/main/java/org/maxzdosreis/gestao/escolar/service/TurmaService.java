@@ -26,7 +26,7 @@ public class TurmaService {
         return turmaRepository.save(turma);
     }
 
-    public void deletar(Long id){
+    public void excluir(Long id){
         turmaRepository.deleteById(id);
     }
 }

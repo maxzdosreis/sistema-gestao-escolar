@@ -82,9 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
     formTurmas.onsubmit = function (e) {
       e.preventDefault();
       const numero = document.getElementById('numeroTurma').value;
-      const turno = document.getElementById('turnoTurma').value;
       const vagas = document.getElementById('vagasTurma').value;
-      turmas.push({ numero, turno, vagas});
+      turmas.push({ numero, vagas});
       salvarDados('turmas', turmas);
       atualizarLista(listaTurmas, turmas);
       formTurmas.reset;

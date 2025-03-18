@@ -1,12 +1,13 @@
 package org.maxzdosreis.gestao.escolar;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
-/**
- * Configures Jakarta RESTful Web Services for the application.
- * @author Juneau
- */
+@SpringBootApplication
 public class SistemaGestaoEscolar{
+    public static void main(String[] args) {
+		SpringApplication.run(SistemaGestaoEscolar.class, args);
+	}
 
 }
 
